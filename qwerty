@@ -11,7 +11,7 @@ Student.points = {
 "js" : 85,
 "stp" : 100, 
 "ps" : 95,
-"comp.net" : 100
+"tbd" : 100
 }
 //console.log(Student["aty"]);
 //console.log(Student.points.js);
@@ -19,4 +19,9 @@ Student.points = {
 //console.log(Student.fam); 
 //Student.jasy="21"
 //console.log(Student.jasy);
+function calc(Student){
+
+	return (Student.points.js+Student.points.stp+Student.points.ps+Student.points.tbd)/4
+}
+console.log(user)
 </script>
