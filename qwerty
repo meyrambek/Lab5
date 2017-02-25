@@ -1,0 +1,22 @@
+<html>
+</html>
+<script>
+Student = {}
+Student['aty'] = "Meirambek"
+Student['fam'] = "Sailau"
+Student['jasy'] = "21"
+Student['mamandyk'] = "Info"
+
+Student.points = {
+"js" : 85,
+"stp" : 100, 
+"ps" : 95,
+"comp.net" : 100
+}
+//console.log(Student["aty"]);
+//console.log(Student.points.js);
+//delete Student.fam;
+//console.log(Student.fam); 
+//Student.jasy="21"
+//console.log(Student.jasy);
+</script>
