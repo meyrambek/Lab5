@@ -6,25 +6,31 @@ Student['aty'] = "Meirambek"
 Student['fam'] = "Sailau"
 Student['jasy'] = "21"
 Student['mamandyk'] = "Info"
-Student1 = {}
-Student1 :aty = "Samat"
-Student1 :fam = "Galum"
-Student1 :jasy = "20"
-Student1 :mamandyk = "Infor"
 
+Student1 = {
+Student1 :aty = "Samat",
+Student1 :fam = "Galum",
+Student1 :jasy = "20",
+Student1 :mamandyk = "Infor"}
 Student.points = {
 "js" : 85,
 "stp" : 100, 
 "ps" : 95,
 "tbd" : 100
 }
+var array = []
+array.push(Student)
+array.push(Student1)
+
+console.log(Student);
 //console.log(Student["aty"]);
 //console.log(Student.points.js);
 //delete Student.fam;
 //console.log(Student.fam); 
 //Student.jasy="21"
 //console.log(Student.jasy);
-var sum=0; 
+//var sum=0;
+function calc(Student){
 for (var key in Student.points ){
 sum+=Student.points[key]}
 return sum/Student.points.length[key] ; 
