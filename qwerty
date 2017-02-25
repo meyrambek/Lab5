@@ -23,5 +23,5 @@ function calc(Student){
 
 	return (Student.points.js+Student.points.stp+Student.points.ps+Student.points.tbd)/4
 }
-console.log(user)
+console.log(Student)
 </script>
