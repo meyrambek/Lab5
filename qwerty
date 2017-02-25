@@ -24,9 +24,10 @@ Student.points = {
 //console.log(Student.fam); 
 //Student.jasy="21"
 //console.log(Student.jasy);
-function calc(Student){
-
-	return (Student.points.js+Student.points.stp+Student.points.ps+Student.points.tbd)/4
+var sum=0; 
+for (var key in Student.points ){
+sum+=Student.points[key]}
+return sum/Student.points.length[key] ; 
 }
 console.log(Student)
 </script>
